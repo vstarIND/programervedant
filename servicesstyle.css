@@ -1,0 +1,119 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 20px;
+    background-color: #dbf6ff;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    display: flex;
+    margin-bottom: 30px;
+    background-color: rgb(255, 247, 141);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.service-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-description {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.service-description h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-description p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.explore-btn:hover {
+    background-color: #555;
+}
+
+/* Sites List */
+#sites-list {
+    display: none;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#sites-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sites-list ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer p strong {
+    color: #4CAF50; /* Green color for 'Programmer Vedant' */
+}
